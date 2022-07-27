@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <img class="header-logo" src="images/intro/intro-icon.png" alt="Current weather logo">
+            <p class="header-text">Pick you city:</p>
+            <div class="weather-select"></div>
+            <a href="https://openweathermap.org" target="_blank" class="another-cities">Choose another city
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="intro">
+                <h1 class="intro-text"><img class="intro-icon" src="images/intro/intro-icon.png" alt="Logo">the
+                    weather in
+                    your city</h1>
+            </div>
+
+            <h2 class="city"></h2>
+            <div class="weather-container">
+                <div class="flex-item">
+                    <p>Temperature</p>
+                    <img class="weather-icon" src="images/weather_icons/temp.png" alt="Temperature">
+                    <div class="temp text-bold"></div>
+                </div>
+                <div class="flex-item">
+                    <p>Wind</p>
+                    <img class="weather-icon" src="images/weather_icons/wind.png" alt="Wind">
+                    <div class="wind text-bold"></div>
+                </div>
+                <div class="flex-item">
+                    <p>Humidity</p>
+                    <img class="weather-icon" src="images/weather_icons/hum.png" alt="Humidity">
+                    <div class="humidity text-bold"></div>
+                </div>
+                <div class="flex-item">
+                    <p>Pressure</p>
+                    <img class="weather-icon" src="images/weather_icons/pres.png" alt="Pressure">
+                    <div class="pressure text-bold"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/21f95b880a.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </main>
+
+</body>
+
+</html>
